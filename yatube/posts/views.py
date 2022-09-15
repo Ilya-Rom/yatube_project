@@ -12,5 +12,5 @@ def group_posts(request):
     return HttpResponse('Посты')
 
 def group_posts(request, slug):
-    return HttpResponse(f'Мороженое номер {slug}') 
+    return HttpResponse(f'Группа {slug}') 
     
